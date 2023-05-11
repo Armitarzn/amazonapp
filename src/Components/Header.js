@@ -1,10 +1,11 @@
 import React from 'react'
 import AmazonLogo from "../Assets/Amazon-logo.png";
 
+
 function Header() {
   return (
     <header>
-      <main>
+      <main className='bg-black'>
         <div>
           <img className=" w-40" src={AmazonLogo} alt="Amazon-logo" />
         </div>
@@ -22,10 +23,6 @@ function Header() {
           </div>
           <div>
             <input type="text" name="search" placeholder="Search Amazon" />
-          </div>
-          <div>
-            <button>
-            </button>
           </div>
         </div>
       </main>
